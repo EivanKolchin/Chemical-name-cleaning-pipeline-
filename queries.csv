@@ -1,0 +1,140 @@
+query_id,messy_input,input_type,correct_iupac,correct_inchikey,correct_cid,noise_type
+Q001,ethanl,name,ethanol,LFQSCWFLJHTTHZ-UHFFFAOYSA-N,702,typo
+Q002,Ethanol,name,ethanol,LFQSCWFLJHTTHZ-UHFFFAOYSA-N,702,mixed_case
+Q003,grain alcohol,name,ethanol,LFQSCWFLJHTTHZ-UHFFFAOYSA-N,702,common_name
+Q004,CCO,smiles,ethanol,LFQSCWFLJHTTHZ-UHFFFAOYSA-N,702,smiles
+Q005,C2H6O,formula,ethanol,LFQSCWFLJHTTHZ-UHFFFAOYSA-N,702,formula
+Q006,ethanoi,name,ethanol,LFQSCWFLJHTTHZ-UHFFFAOYSA-N,702,ocr_error
+Q007,asprin,name,2-(acetyloxy)benzoic acid,BSYNRYMUTXBXSQ-UHFFFAOYSA-N,2244,typo
+Q008,ASPIRIN,name,2-(acetyloxy)benzoic acid,BSYNRYMUTXBXSQ-UHFFFAOYSA-N,2244,mixed_case
+Q009,acetylsalicylic acid,name,2-(acetyloxy)benzoic acid,BSYNRYMUTXBXSQ-UHFFFAOYSA-N,2244,common_name
+Q010,2-acetoxybenzoic acid,name,2-(acetyloxy)benzoic acid,BSYNRYMUTXBXSQ-UHFFFAOYSA-N,2244,iupac_synonym
+Q011,CC(=O)Oc1ccccc1C(=O)O,smiles,2-(acetyloxy)benzoic acid,BSYNRYMUTXBXSQ-UHFFFAOYSA-N,2244,smiles
+Q012,C9H8O4,formula,2-(acetyloxy)benzoic acid,BSYNRYMUTXBXSQ-UHFFFAOYSA-N,2244,formula
+Q013,paracetamol,name,N-(4-hydroxyphenyl)acetamide,RZVAJINKPMORJF-UHFFFAOYSA-N,1983,common_name
+Q014,acetaminophen,name,N-(4-hydroxyphenyl)acetamide,RZVAJINKPMORJF-UHFFFAOYSA-N,1983,common_name
+Q015,4-hydroxyacetanilide,name,N-(4-hydroxyphenyl)acetamide,RZVAJINKPMORJF-UHFFFAOYSA-N,1983,iupac_synonym
+Q016,parasetamol,name,N-(4-hydroxyphenyl)acetamide,RZVAJINKPMORJF-UHFFFAOYSA-N,1983,typo
+Q017,CC(=O)Nc1ccc(O)cc1,smiles,N-(4-hydroxyphenyl)acetamide,RZVAJINKPMORJF-UHFFFAOYSA-N,1983,smiles
+Q018,paracetarnol,name,N-(4-hydroxyphenyl)acetamide,RZVAJINKPMORJF-UHFFFAOYSA-N,1983,ocr_error
+Q019,acetic acide,name,acetic acid,QTBSBXVTEAMEQO-UHFFFAOYSA-N,176,typo
+Q020,vinegar acid,name,acetic acid,QTBSBXVTEAMEQO-UHFFFAOYSA-N,176,common_name
+Q021,CH3COOH,formula,acetic acid,QTBSBXVTEAMEQO-UHFFFAOYSA-N,176,formula
+Q022,ethanoic acid,name,acetic acid,QTBSBXVTEAMEQO-UHFFFAOYSA-N,176,iupac_synonym
+Q023,CC(=O)O,smiles,acetic acid,QTBSBXVTEAMEQO-UHFFFAOYSA-N,176,smiles
+Q024,acetic acid,name,acetic acid,QTBSBXVTEAMEQO-UHFFFAOYSA-N,176,exact
+Q025,caffiene,name,"1,3,7-trimethylpurine-2,6(1H,3H)-dione",RYYVLZVUVIJVGH-UHFFFAOYSA-N,2519,typo
+Q026,CAFFEINE,name,"1,3,7-trimethylpurine-2,6(1H,3H)-dione",RYYVLZVUVIJVGH-UHFFFAOYSA-N,2519,mixed_case
+Q027,"1,3,7-trimethylxanthine",name,"1,3,7-trimethylpurine-2,6(1H,3H)-dione",RYYVLZVUVIJVGH-UHFFFAOYSA-N,2519,iupac_synonym
+Q028,C8H10N4O2,formula,"1,3,7-trimethylpurine-2,6(1H,3H)-dione",RYYVLZVUVIJVGH-UHFFFAOYSA-N,2519,formula
+Q029,CN1C=NC2=C1C(=O)N(C)C(=O)N2C,smiles,"1,3,7-trimethylpurine-2,6(1H,3H)-dione",RYYVLZVUVIJVGH-UHFFFAOYSA-N,2519,smiles
+Q030,cafeine,name,"1,3,7-trimethylpurine-2,6(1H,3H)-dione",RYYVLZVUVIJVGH-UHFFFAOYSA-N,2519,typo
+Q031,ibruprofen,name,2-(4-(2-methylpropyl)phenyl)propanoic acid,HEFNNWSXXWATRW-UHFFFAOYSA-N,3672,typo
+Q032,ibuprofen,name,2-(4-(2-methylpropyl)phenyl)propanoic acid,HEFNNWSXXWATRW-UHFFFAOYSA-N,3672,exact
+Q033,2-(4-isobutylphenyl)propionic acid,name,2-(4-(2-methylpropyl)phenyl)propanoic acid,HEFNNWSXXWATRW-UHFFFAOYSA-N,3672,iupac_synonym
+Q034,C13H18O2,formula,2-(4-(2-methylpropyl)phenyl)propanoic acid,HEFNNWSXXWATRW-UHFFFAOYSA-N,3672,formula
+Q035,IBUPROFEN,name,2-(4-(2-methylpropyl)phenyl)propanoic acid,HEFNNWSXXWATRW-UHFFFAOYSA-N,3672,mixed_case
+Q036,ibuprofem,name,2-(4-(2-methylpropyl)phenyl)propanoic acid,HEFNNWSXXWATRW-UHFFFAOYSA-N,3672,ocr_error
+Q037,glucoze,name,"(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",WQZGKKKJIJFFOK-GASJEMHNSA-N,5793,typo
+Q038,dextrose,name,"(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",WQZGKKKJIJFFOK-GASJEMHNSA-N,5793,common_name
+Q039,C6H12O6,formula,"(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",WQZGKKKJIJFFOK-GASJEMHNSA-N,5793,formula
+Q040,d-glucose,name,"(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",WQZGKKKJIJFFOK-GASJEMHNSA-N,5793,iupac_synonym
+Q041,blood sugar,name,"(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",WQZGKKKJIJFFOK-GASJEMHNSA-N,5793,common_name
+Q042,glucos,name,"(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",WQZGKKKJIJFFOK-GASJEMHNSA-N,5793,partial
+Q043,sodiurn chloride,name,sodium chloride,FAPWRFPIFSIZLT-UHFFFAOYSA-M,5234,ocr_error
+Q044,NaCl,formula,sodium chloride,FAPWRFPIFSIZLT-UHFFFAOYSA-M,5234,formula
+Q045,table salt,name,sodium chloride,FAPWRFPIFSIZLT-UHFFFAOYSA-M,5234,common_name
+Q046,SODIUM CHLORIDE,name,sodium chloride,FAPWRFPIFSIZLT-UHFFFAOYSA-M,5234,mixed_case
+Q047,sodlum chloride,name,sodium chloride,FAPWRFPIFSIZLT-UHFFFAOYSA-M,5234,ocr_error
+Q048,salt,name,sodium chloride,FAPWRFPIFSIZLT-UHFFFAOYSA-M,5234,common_name
+Q049,benzne,name,benzene,UHOVQNZJYSORNB-UHFFFAOYSA-N,241,typo
+Q050,c1ccccc1,smiles,benzene,UHOVQNZJYSORNB-UHFFFAOYSA-N,241,smiles
+Q051,C6H6,formula,benzene,UHOVQNZJYSORNB-UHFFFAOYSA-N,241,formula
+Q052,BENZENE,name,benzene,UHOVQNZJYSORNB-UHFFFAOYSA-N,241,mixed_case
+Q053,cyclohexatriene,name,benzene,UHOVQNZJYSORNB-UHFFFAOYSA-N,241,iupac_synonym
+Q054,benz.,name,benzene,UHOVQNZJYSORNB-UHFFFAOYSA-N,241,partial
+Q055,methanoi,name,methanol,OKKJLVBELUTLKV-UHFFFAOYSA-N,887,ocr_error
+Q056,CO,smiles,methanol,OKKJLVBELUTLKV-UHFFFAOYSA-N,887,smiles
+Q057,CH4O,formula,methanol,OKKJLVBELUTLKV-UHFFFAOYSA-N,887,formula
+Q058,wood alcohol,name,methanol,OKKJLVBELUTLKV-UHFFFAOYSA-N,887,common_name
+Q059,methyl alcohol,name,methanol,OKKJLVBELUTLKV-UHFFFAOYSA-N,887,iupac_synonym
+Q060,methanool,name,methanol,OKKJLVBELUTLKV-UHFFFAOYSA-N,887,typo
+Q061,propan-2-one,name,propan-2-one,CSCPPACGZOOCGX-UHFFFAOYSA-N,180,exact
+Q062,dimethyl ketone,name,propan-2-one,CSCPPACGZOOCGX-UHFFFAOYSA-N,180,common_name
+Q063,acetone,name,propan-2-one,CSCPPACGZOOCGX-UHFFFAOYSA-N,180,common_name
+Q064,CC(C)=O,smiles,propan-2-one,CSCPPACGZOOCGX-UHFFFAOYSA-N,180,smiles
+Q065,C3H6O,formula,propan-2-one,CSCPPACGZOOCGX-UHFFFAOYSA-N,180,formula
+Q066,acetore,name,propan-2-one,CSCPPACGZOOCGX-UHFFFAOYSA-N,180,ocr_error
+Q067,toluene,name,methylbenzene,YXFVVABEGXRONW-UHFFFAOYSA-N,1140,common_name
+Q068,methylbenzne,name,methylbenzene,YXFVVABEGXRONW-UHFFFAOYSA-N,1140,typo
+Q069,Cc1ccccc1,smiles,methylbenzene,YXFVVABEGXRONW-UHFFFAOYSA-N,1140,smiles
+Q070,C7H8,formula,methylbenzene,YXFVVABEGXRONW-UHFFFAOYSA-N,1140,formula
+Q071,phenylmethane,name,methylbenzene,YXFVVABEGXRONW-UHFFFAOYSA-N,1140,iupac_synonym
+Q072,tolune,name,methylbenzene,YXFVVABEGXRONW-UHFFFAOYSA-N,1140,typo
+Q073,H2SO4,formula,sulfuric acid,QAOWNCQODCNURD-UHFFFAOYSA-N,1118,formula
+Q074,sulphuric acid,name,sulfuric acid,QAOWNCQODCNURD-UHFFFAOYSA-N,1118,common_name
+Q075,sulfuric acld,name,sulfuric acid,QAOWNCQODCNURD-UHFFFAOYSA-N,1118,ocr_error
+Q076,dihydrogen sulfate,name,sulfuric acid,QAOWNCQODCNURD-UHFFFAOYSA-N,1118,iupac_synonym
+Q077,oil of vitriol,name,sulfuric acid,QAOWNCQODCNURD-UHFFFAOYSA-N,1118,common_name
+Q078,SULFURIC ACID,name,sulfuric acid,QAOWNCQODCNURD-UHFFFAOYSA-N,1118,mixed_case
+Q079,hydroqulnone,name,"benzene-1,4-diol",QIGBRXMKCJKVMJ-UHFFFAOYSA-N,785,ocr_error
+Q080,"benzene-1,4-diol",name,"benzene-1,4-diol",QIGBRXMKCJKVMJ-UHFFFAOYSA-N,785,exact
+Q081,"1,4-dihydroxybenzene",name,"benzene-1,4-diol",QIGBRXMKCJKVMJ-UHFFFAOYSA-N,785,iupac_synonym
+Q082,p-dihydroxybenzene,name,"benzene-1,4-diol",QIGBRXMKCJKVMJ-UHFFFAOYSA-N,785,iupac_synonym
+Q083,C6H6O2,formula,"benzene-1,4-diol",QIGBRXMKCJKVMJ-UHFFFAOYSA-N,785,formula
+Q084,Oc1ccc(O)cc1,smiles,"benzene-1,4-diol",QIGBRXMKCJKVMJ-UHFFFAOYSA-N,785,smiles
+Q085,glycerin,name,"propane-1,2,3-triol",PEDCQBHIVMGVHV-UHFFFAOYSA-N,753,common_name
+Q086,glycerol,name,"propane-1,2,3-triol",PEDCQBHIVMGVHV-UHFFFAOYSA-N,753,common_name
+Q087,"propane-1,2,3-triol",name,"propane-1,2,3-triol",PEDCQBHIVMGVHV-UHFFFAOYSA-N,753,exact
+Q088,C3H8O3,formula,"propane-1,2,3-triol",PEDCQBHIVMGVHV-UHFFFAOYSA-N,753,formula
+Q089,glycerine,name,"propane-1,2,3-triol",PEDCQBHIVMGVHV-UHFFFAOYSA-N,753,common_name
+Q090,OCC(O)CO,smiles,"propane-1,2,3-triol",PEDCQBHIVMGVHV-UHFFFAOYSA-N,753,smiles
+Q091,carbolic acid,name,phenol,ISWSIDIOOBJBQZ-UHFFFAOYSA-N,996,common_name
+Q092,phenoi,name,phenol,ISWSIDIOOBJBQZ-UHFFFAOYSA-N,996,ocr_error
+Q093,hydroxybenzene,name,phenol,ISWSIDIOOBJBQZ-UHFFFAOYSA-N,996,iupac_synonym
+Q094,Oc1ccccc1,smiles,phenol,ISWSIDIOOBJBQZ-UHFFFAOYSA-N,996,smiles
+Q095,C6H6O,formula,phenol,ISWSIDIOOBJBQZ-UHFFFAOYSA-N,996,formula
+Q096,urea,name,urea,XSQUKJJJFZCRTK-UHFFFAOYSA-N,1176,exact
+Q097,carbamide,name,urea,XSQUKJJJFZCRTK-UHFFFAOYSA-N,1176,common_name
+Q098,CH4N2O,formula,urea,XSQUKJJJFZCRTK-UHFFFAOYSA-N,1176,formula
+Q099,NC(N)=O,smiles,urea,XSQUKJJJFZCRTK-UHFFFAOYSA-N,1176,smiles
+Q100,uera,name,urea,XSQUKJJJFZCRTK-UHFFFAOYSA-N,1176,typo
+Q101,citric acld,name,"2-hydroxypropane-1,2,3-tricarboxylic acid",KRKNYBCHXYNGOX-UHFFFAOYSA-N,311,ocr_error
+Q102,"2-hydroxypropane-1,2,3-tricarboxylic acid",name,"2-hydroxypropane-1,2,3-tricarboxylic acid",KRKNYBCHXYNGOX-UHFFFAOYSA-N,311,exact
+Q103,C6H8O7,formula,"2-hydroxypropane-1,2,3-tricarboxylic acid",KRKNYBCHXYNGOX-UHFFFAOYSA-N,311,formula
+Q104,citric acid,name,"2-hydroxypropane-1,2,3-tricarboxylic acid",KRKNYBCHXYNGOX-UHFFFAOYSA-N,311,common_name
+Q105,trichloromethane,name,trichloromethane,HEDRZPFGACZZDS-UHFFFAOYSA-N,6212,exact
+Q106,chloroform,name,trichloromethane,HEDRZPFGACZZDS-UHFFFAOYSA-N,6212,common_name
+Q107,CHCl3,formula,trichloromethane,HEDRZPFGACZZDS-UHFFFAOYSA-N,6212,formula
+Q108,ClC(Cl)Cl,smiles,trichloromethane,HEDRZPFGACZZDS-UHFFFAOYSA-N,6212,smiles
+Q109,trichlorometane,name,trichloromethane,HEDRZPFGACZZDS-UHFFFAOYSA-N,6212,typo
+Q110,methanal,name,formaldehyde,WSFSSNUMVMOOMR-UHFFFAOYSA-N,712,iupac_synonym
+Q111,formalin,name,formaldehyde,WSFSSNUMVMOOMR-UHFFFAOYSA-N,712,common_name
+Q112,CH2O,formula,formaldehyde,WSFSSNUMVMOOMR-UHFFFAOYSA-N,712,formula
+Q113,C=O,smiles,formaldehyde,WSFSSNUMVMOOMR-UHFFFAOYSA-N,712,smiles
+Q114,formaldehyde,name,formaldehyde,WSFSSNUMVMOOMR-UHFFFAOYSA-N,712,exact
+Q115,H2O2,formula,hydrogen peroxide,MHAJPDPJQMAIIY-UHFFFAOYSA-N,784,formula
+Q116,hydrogen peroxlde,name,hydrogen peroxide,MHAJPDPJQMAIIY-UHFFFAOYSA-N,784,ocr_error
+Q117,dihydrogen dioxide,name,hydrogen peroxide,MHAJPDPJQMAIIY-UHFFFAOYSA-N,784,iupac_synonym
+Q118,OO,smiles,hydrogen peroxide,MHAJPDPJQMAIIY-UHFFFAOYSA-N,784,smiles
+Q119,hydrogen peroxide,name,hydrogen peroxide,MHAJPDPJQMAIIY-UHFFFAOYSA-N,784,exact
+Q120,amonia,name,azane,NLXLAEXVIDQMFP-UHFFFAOYSA-N,222,typo
+Q121,NH3,formula,azane,NLXLAEXVIDQMFP-UHFFFAOYSA-N,222,formula
+Q122,azane,name,azane,NLXLAEXVIDQMFP-UHFFFAOYSA-N,222,exact
+Q123,N,smiles,azane,NLXLAEXVIDQMFP-UHFFFAOYSA-N,222,smiles
+Q124,amrnonia,name,azane,NLXLAEXVIDQMFP-UHFFFAOYSA-N,222,ocr_error
+Q125,methanoic acid,name,formic acid,BDAGIHXWWSANSR-UHFFFAOYSA-N,284,iupac_synonym
+Q126,formic acld,name,formic acid,BDAGIHXWWSANSR-UHFFFAOYSA-N,284,ocr_error
+Q127,CH2O2,formula,formic acid,BDAGIHXWWSANSR-UHFFFAOYSA-N,284,formula
+Q128,OC=O,smiles,formic acid,BDAGIHXWWSANSR-UHFFFAOYSA-N,284,smiles
+Q129,ant acid,name,formic acid,BDAGIHXWWSANSR-UHFFFAOYSA-N,284,common_name
+Q130,salicylic acid,name,2-hydroxybenzoic acid,YGSDEFSMJLZEOE-UHFFFAOYSA-N,338,common_name
+Q131,2-hydroxybenzoic acid,name,2-hydroxybenzoic acid,YGSDEFSMJLZEOE-UHFFFAOYSA-N,338,exact
+Q132,salicylate,name,2-hydroxybenzoic acid,YGSDEFSMJLZEOE-UHFFFAOYSA-N,338,partial
+Q133,salicylic acld,name,2-hydroxybenzoic acid,YGSDEFSMJLZEOE-UHFFFAOYSA-N,338,ocr_error
+Q134,C7H6O3,formula,2-hydroxybenzoic acid,YGSDEFSMJLZEOE-UHFFFAOYSA-N,338,formula
+Q135,ethylene glycol,name,"ethane-1,2-diol",LYCAIKOWRPUZTN-UHFFFAOYSA-N,174,common_name
+Q136,"ethane-1,2-diol",name,"ethane-1,2-diol",LYCAIKOWRPUZTN-UHFFFAOYSA-N,174,exact
+Q137,OCCO,smiles,"ethane-1,2-diol",LYCAIKOWRPUZTN-UHFFFAOYSA-N,174,smiles
+Q138,antifreeze,name,"ethane-1,2-diol",LYCAIKOWRPUZTN-UHFFFAOYSA-N,174,common_name
+Q139,C2H6O2,formula,"ethane-1,2-diol",LYCAIKOWRPUZTN-UHFFFAOYSA-N,174,formula
