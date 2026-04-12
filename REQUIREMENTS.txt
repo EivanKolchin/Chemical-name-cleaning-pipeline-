@@ -1,0 +1,4 @@
+pip==26.0.1
+rdkit==2024.09.1
+pandas==2.0.3
+rapidfuzz==2.0.0
