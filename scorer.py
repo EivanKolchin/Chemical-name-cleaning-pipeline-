@@ -18,12 +18,17 @@ for index, row in df.iterrows():
 
     if type == 'iupac_name':
         cursor.execute('SELECT iupac_name FROM compounds')
-        candidates = [x[0] for x in cursor.fetchall()]
+        all_items = [x[0] for x in cursor.fetchall()]
         best_match = process.extractOne(cleaned, candidates)
 
         if best_match:
+            match_item, score, index = best_match
+            print(f"Best match: {match_item}, Score: {score}")
+            if score >= 75:
+                candidates.append(match_item)
 
-    
+    elif type == 'molecular_formula':
+
     cursor.execute(f'SELECT iupac_name FROM compounds WHERE {type} = ?', (normalised['cleaned'],))
     candidates = [x[0] for x in cursor.fetchall()]
 
@@ -33,3 +38,4 @@ for index, row in df.iterrows():
 conn.close()
 
 
+# option: friend cus we autistic or gaslight judges
