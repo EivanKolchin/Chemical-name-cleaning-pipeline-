@@ -37,5 +37,3 @@ for index, row in df.iterrows():
 
 conn.close()
 
-
-# option: friend cus we autistic or gaslight judges
